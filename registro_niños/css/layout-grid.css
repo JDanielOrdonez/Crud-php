@@ -1,0 +1,39 @@
+body{
+    background: #fff;
+    color: #fff;
+}
+p{
+    margin-bottom: 0;/*esto es porque a bootstrap le gusta poner un borde en la parte de abajo a las etiquetas p y con esto se lo quitamos*/
+}
+.row{
+    margin-bottom: 20;
+}
+header{
+    background: #232532;
+    margin-top: 20px;
+    padding: 20px;
+}
+main article{
+    color: #000;
+    background: #fff;
+    padding: 20px;
+}
+main article p{
+    margin-bottom: 20px;    /*para ponerles un poco de espaciado a los parrafos*/
+}
+
+aside{
+    background: #7aa54c;
+    padding: 40px 20px;
+    text-align: center;
+}
+.widgets .widget{
+     background: #4f53f5;
+     padding: 40px 20px;
+     text-align: center;
+}
+footer{
+    background: #232532;
+    padding: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,3 @@
+*lista total de registro    SELECT * FROM `datos`;
+*Lista de niños mayor a 15 años y que no hose hayan vacunado      SELECT * FROM `datos` WHERE `edad` > '15' AND `estado_vacuna` = 'No';
+*lista de nombre y direccion de niños con sobre peso            SELECT `nombre`,`direccion` FROM `datos` WHERE abs(`peso` / abs(`estatura` * `estatura`)) > 15;

@@ -1,0 +1,35 @@
+.contenedor{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.head{
+	background-color: #EDEDED;
+	color: #4086BF;
+	text-align: center;	
+	height: 130px;
+}
+.title{
+	margin: auto auto;
+}
+.daniel-nav{
+	margin-top: 20px;
+
+}
+.inputs{
+	font-size: 14px;
+}
+.enlace{
+	text-decoration: none;
+	color: #000;
+}
+.enlace:visited {							/*para enlaces que ya hemos visitado*/
+	color: #000;
+}
+.enlace:hover{					/*al apuntar al enlace*/
+	text-decoration: none;
+	color: #000;
+}
+.enlace:active {				/*cambiarle el estado del enlace cuando se de un clic*/
+	text-decoration: none;
+	color: #000;
+}
